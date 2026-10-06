@@ -4,23 +4,24 @@ Projeto desenvolvido para a disciplina de PSI. Implementa três tipos de veícul
 
 ## Estrutura do projeto
 
+```
 isaque/
 ├── pom.xml
 ├── README.md
 └── src/
-├── main/java/epbjc/java/
-│ ├── Main.java -> menu interativo (teste manual)
-│ ├── interfaces/
-│ │ ├── Veiculo.java -> contrato comum a todos os veículos
-│ │ └── TipoVeiculo.java -> enum: CARRO, MOTA, BARCO
-│ ├── modelos/
-│ │ ├── Carro.java
-│ │ ├── Mota.java
-│ │ └── Barco.java
-│ └── garagem/
-│ └── Garagem.java
-└── test/java/ -> testes automáticos (JUnit)
-
+    ├── main/java/epbjc/java/
+    │   ├── Main.java                  -> menu interativo (teste manual)
+    │   ├── interfaces/
+    │   │   ├── Veiculo.java           -> contrato comum a todos os veículos
+    │   │   └── TipoVeiculo.java       -> enum: CARRO, MOTA, BARCO
+    │   ├── modelos/
+    │   │   ├── Carro.java
+    │   │   ├── Mota.java
+    │   │   └── Barco.java
+    │   └── garagem/
+    │       └── Garagem.java
+    └── test/java/                     -> testes automáticos (JUnit)
+```
 
 ## Conceitos de POO demonstrados
 
